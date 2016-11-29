@@ -1,0 +1,9 @@
+1. Configure cucumber with serenity dependencies
+2. Configure serenity-maven-plugin
+3. Configure maven-surefire-plugin to include AllTestSuite.java
+4. Build project to download dependencies and plugins
+5. Create AllAcceptanceTestSuite.java
+6. Create AllTestSuite.java
+7. Create .feature file
+8. Create Run Configuration with target "clean test" to run the tests
+9. Create Run Configuration with target "verify" to generate test reports
